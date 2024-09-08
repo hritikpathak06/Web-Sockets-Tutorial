@@ -16,7 +16,7 @@ const io = new Server(httpServer, {
   },
 });
 
-app.get("/", (req, res) => {
+app.get("/", (req:any, res:any) => {
   res.send("Hello, TypeScript with Node.js!");
 });
 
